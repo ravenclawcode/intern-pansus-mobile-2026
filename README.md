@@ -1,16 +1,12 @@
-# shopping_list_pansus
+# Shopping List
 
-A new Flutter project.
+## Task : Shopping List
 
-## Getting Started
+Buat sebuah halaman Flutter sederhana (boleh pakai StatefulWidget + setState, tidak wajib memakai state management library apa pun) dengan requirement berikut:
+1. Tampilkan sebuah TextField dan tombol “Tambah” untuk menambahkan item baru ke daftar belanja
+2. Item yang ditambahkan muncul di sebuah list di bawah input, masing-masing menampilkan nama item
+3. Setiap item di list punya checkbox, kalau dicentang, teks nama item tampil dengan coretan (strikethrough), menandakan item sudah dibeli
+4. Setiap item punya tombol/ikon hapus untuk menghapus item tersebut dari list
+5. Kalau list masih kosong, tampilkan teks “Belum ada item” di tengah layar
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**P.S:** Buat validasi agar tidak dapat menambah item dengan teks kosong dan tampilkan jumlah total item di App Bar.
